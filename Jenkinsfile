@@ -29,7 +29,8 @@ pipeline {
             }
             steps {
                 sh '''
-                    echo "TEST STAGE"
+                    echo "TEST STAGE"4
+                    test -f index.html
                 '''
             }
         }
